@@ -7,7 +7,7 @@ dependencies:
 - dask>=2024.4.1 # Parallel data processing
 - eli5>=0.13.0 # ML debugging
 - graphviz>=9.0.0 # Graph descriptions
-- huggingface_hub # Hugging Face Hub interface
+- huggingface_hub[cli,torch,tensorflow]>=0.22.2 # Hugging Face Hub interface
 - keras>=3.1.1 # Deep learning
 - langchain>=0.1.14 # NLP tools
 - lightgbm>=4.3.0 # Gradient boosting

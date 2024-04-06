@@ -8,6 +8,8 @@ dependencies:
 - eli5>=0.13.0 # ML debugging
 - graphviz>=9.0.0 # Graph descriptions
 - huggingface_hub[cli,torch,tensorflow]>=0.22.2 # Hugging Face Hub interface
+- jupyter>=1.0.0 # Jupyter components
+- jupyterlab>=4.1.5 # Jupyter in the browser
 - keras>=3.1.1 # Deep learning
 - langchain>=0.1.14 # NLP tools
 - lightgbm>=4.3.0 # Gradient boosting

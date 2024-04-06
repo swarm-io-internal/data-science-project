@@ -1,0 +1,35 @@
+name: swarm-data-science # Env name; change as needed
+channels:
+- conda-forge
+dependencies:
+- python>=3.10,<3.12 # Version 3.12 introduces breaking changes
+- beautifulsoup4>=4.12.3 # Screen scraper
+- dask>=2024.4.1 # Parallel data processing
+- eli5>=0.13.0 # ML debugging
+- graphviz>=9.0.0 # Graph descriptions
+- huggingface_hub # Hugging Face Hub interface
+- keras>=3.1.1 # Deep learning
+- langchain>=0.1.14 # NLP tools
+- lightgbm>=4.3.0 # Gradient boosting
+- matplotlib>=3.8.3 # Data visualizations
+- numpy>=1.26.4 # Scientific computing
+- pandas>=2.2.1 # Dataframes
+- pillow>=10.3.0 # Image processing
+- polars>=0.20.18 # Dataframes
+- pydantic>=2.6.4 # Data validation
+- pytorch>=2.2.2 # Tensors for deep learning
+- pyyaml>=6.0.1 # Yaml parser
+- requests>=2.31.0 # HTTP
+- scikit-learn>=1.4 # Machine learning
+- scikit-image>=0.22.0 # Image processing
+- scipy>=1.13.0 # Math, science, and eng
+- scrapy>=2.11.1 # Web scraper
+- tensorflow>=2.15.0 # Machine learning
+- tiktoken>=0.6.0 # BPE tokenizer
+- torchaudio>=2.2.2 # PyTorch audio
+- torchtext>=0.15.2 # PyTorch nlp
+- torchvision>=0.16.1 # PyTorch cv
+- transformers>=4.39.2 # Pre-trained model transformers
+- pip
+- pip:
+  - -r requirements.txt

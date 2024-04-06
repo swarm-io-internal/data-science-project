@@ -10,7 +10,7 @@ COPY environment.yml /tmp/environment.yml
 RUN conda env create -f /tmp/environment.yml
 
 # Make RUN commands use the new environment:
-SHELL ["conda", "run", "-n", "swarm-test-container", "/bin/bash", "-c"]
+SHELL ["conda", "run", "-n", "swarm-data-science", "/bin/bash", "-c"]
 
 # Install wget, git, ncdu, and curl
 RUN apt-get update && apt-get install -y \

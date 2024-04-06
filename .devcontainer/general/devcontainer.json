@@ -10,5 +10,5 @@
         ]
       }
     },
-    "postCreateCommand": "sh .devcontainer/postBuild.sh"
+    "postCreateCommand": "sh .devcontainer/general/postBuild.sh"
   }

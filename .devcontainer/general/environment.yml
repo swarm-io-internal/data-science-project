@@ -14,6 +14,7 @@ dependencies:
 - langchain>=0.1.14 # NLP tools
 - lightgbm>=4.3.0 # Gradient boosting
 - matplotlib>=3.8.3 # Data visualizations
+- nltk>=3.8.1 # Natural Language Toolkit
 - numpy>=1.26.4 # Scientific computing
 - pandas>=2.2.1 # Dataframes
 - pillow>=10.3.0 # Image processing

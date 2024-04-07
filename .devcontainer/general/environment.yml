@@ -1,8 +1,10 @@
 name: swarm-data-science # Env name; change as needed
 channels:
 - conda-forge
+- defaults
 dependencies:
 - python>=3.10,<3.12 # Version 3.12 introduces breaking changes
+- pip # Python package installer
 - beautifulsoup4>=4.12.3 # Screen scraper
 - dask>=2024.4.1 # Parallel data processing
 - eli5>=0.13.0 # ML debugging
@@ -12,7 +14,9 @@ dependencies:
 - jupyterlab>=4.1.5 # Jupyter in the browser
 - keras>=3.1.1 # Deep learning
 - langchain>=0.1.14 # NLP tools
+- langchain-text-splitters>=0.0.1,<0.1 # Chunking tool
 - lightgbm>=4.3.0 # Gradient boosting
+- lxml>=5.1.0,<6.0.0 # XML processor
 - matplotlib>=3.8.3 # Data visualizations
 - nltk>=3.8.1 # Natural Language Toolkit
 - numpy>=1.26.4 # Scientific computing
@@ -27,10 +31,6 @@ dependencies:
 - scipy>=1.13.0 # Math, science, and eng
 - scrapy>=2.11.1 # Web scraper
 - tiktoken>=0.3.2,<0.6.0 # BPE tokenizer
-- torch>=2.2.2 # Tensors for deep learning
-- torchtext>=0.15.2 # PyTorch nlp
-- torchvision>=0.16.1 # PyTorch cv
 - transformers>=4.39.2 # Pre-trained model transformers
-- pip
 - pip:
   - -r requirements.txt

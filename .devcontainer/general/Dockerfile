@@ -1,5 +1,5 @@
 # Use the latest version of the pangeo/base-image
-FROM pangeo/base-image:latest
+FROM pangeo/base-notebook:latest
 
 USER root
 

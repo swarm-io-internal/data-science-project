@@ -3,34 +3,33 @@ channels:
 - conda-forge
 - defaults
 dependencies:
-- python>=3.10,<3.12 # Version 3.12 introduces breaking changes
+- python>=3.10 # Version 3.12 introduces breaking changes
 - pip # Python package installer
-- beautifulsoup4>=4.12.3 # Screen scraper
-- dask>=2024.4.1 # Parallel data processing
-- eli5>=0.13.0 # ML debugging
-- graphviz>=9.0.0 # Graph descriptions
-- huggingface_hub[cli,torch,tensorflow]>=0.22.2 # Hugging Face Hub interface
-- jupyter>=1.0.0 # Jupyter components
-- jupyterlab>=4.1.5 # Jupyter in the browser
-- keras>=3.1.1 # Deep learning
-- langchain>=0.1 # NLP tools
-- langchain-text-splitters>=0.0.1,<0.1 # Chunking tool
-- lightgbm>=4.3.0 # Gradient boosting
+- beautifulsoup4 # Screen scraper
+- dask # Parallel data processing
+- eli5 # ML debugging
+- graphviz # Graph descriptions
+- huggingface_hub[cli,torch,tensorflow] # Hugging Face Hub interface
+- jupyter # Jupyter components
+- jupyterlab # Jupyter in the browser
+- keras # Deep learning
+- langchain # NLP tools
+- lightgbm # Gradient boosting
 - lxml # XML processor
-- matplotlib>=3.8.3 # Data visualizations
-- nltk>=3.8.1 # Natural Language Toolkit
-- numpy>=1.26.4 # Scientific computing
-- pandas>=2.2.1 # Dataframes
-- pillow>=10.3.0 # Image processing
-- polars>=0.20.18 # Dataframes
-- pydantic>=2.6.4 # Data validation
-- pyyaml>=6.0.1 # Yaml parser
-- requests>=2.31.0 # HTTP
-- scikit-learn>=1.4 # Machine learning
-- scikit-image>=0.22.0 # Image processing
-- scipy>=1.13.0 # Math, science, and eng
-- scrapy>=2.11.1 # Web scraper
-- tiktoken>=0.3.2,<0.6.0 # BPE tokenizer
-- transformers>=4.39.2 # Pre-trained model transformers
+- matplotlib # Data visualizations
+- nltk # Natural Language Toolkit
+- numpy # Scientific computing
+- pandas # Dataframes
+- pillow # Image processing
+- polars # Dataframes
+- pydantic # Data validation
+- pyyaml> # Yaml parser
+- requests # HTTP
+- scikit-learn # Machine learning
+- scikit-image # Image processing
+- scipy # Math, science, and eng
+- scrapy # Web scraper
+- tiktoken # BPE tokenizer
+- transformers # Pre-trained model transformers
 - pip:
   - -r requirements.txt

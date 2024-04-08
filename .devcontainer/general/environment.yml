@@ -23,13 +23,14 @@ dependencies:
 - pillow # Image processing
 - polars # Dataframes
 - pydantic # Data validation
-- pyyaml> # Yaml parser
+- pytorch # Tensors
+- pyyaml # Yaml parser
 - requests # HTTP
 - scikit-learn # Machine learning
 - scikit-image # Image processing
 - scipy # Math, science, and eng
 - scrapy # Web scraper
 - tiktoken # BPE tokenizer
-- transformers # Pre-trained model transformers
+- transformers<4.39 # Pre-trained model transformers
 - pip:
   - -r requirements.txt

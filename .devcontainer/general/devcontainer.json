@@ -1,14 +1,15 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 {
-    "build": { "dockerfile": "Dockerfile" },
-  
+    // You can sub this for any of the images in the https://github.com/swarm-io-internal/docker-images repo
+    "image": "ghcr.io/swarm-io-internal/data-science-lite:latest",
+    // VS Code customizations
     "customizations": {
       "vscode": {
         "extensions": [
-          "ms-toolsai.jupyter",
-          "ms-python.python"
+          "ms-toolsai.jupyter", // Jupyter extension
+          "ms-python.python" // Python extensions including linting
         ]
       }
     },
-    "postCreateCommand": "sh .devcontainer/general/postBuild.sh"
+    "postCreateCommand": "sh .devcontainer/general/postBuild.sh" // Only executes if there have commands that need to run after container creation
   }
